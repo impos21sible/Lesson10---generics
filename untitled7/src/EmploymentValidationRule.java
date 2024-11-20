@@ -5,6 +5,6 @@ public class EmploymentValidationRule extends ValidationRule {
 
     @Override
     public boolean isValid() {
-        return value == 1; // 1 means employed, 0 means not employed
+        return value == 1;
     }
 }
